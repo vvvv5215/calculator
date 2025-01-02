@@ -39,7 +39,8 @@ function calculate() {
         default:
             return;
     }
-    display.innerText = result;
+    display.innerText = result.toFixed(5); 
     currentOperation = null;
     previousValue = '';
 }
+
